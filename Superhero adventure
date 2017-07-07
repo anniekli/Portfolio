@@ -57,6 +57,8 @@ if super_power == "speed":
 
 
 
+
+
 elif super_power == "strength":
     print('''You trip into a particle accelerator and it explodes.
     When you emerge from the ashes, you now have super-strength!''')
@@ -69,5 +71,17 @@ elif super_power == "strength":
         print("You failed your sister and the dragons have eaten her.")
     elif battle == "fight":
         print("You decide to fight the ogre with your super strength and defeat him!")
-        print("You continue the rescue for your sister.")
+        print('''You continue the rescue for your sister.
+        You arrive at the castle, but the dragon is guarding the entrance''')
+
+        dragon = input("Do you want to fight the dragon or try to befriend it? Type 'fight' or 'befriend'.")
+        if dragon == "fight":
+            print('''You use your super strength and kill the dragon.
+            As you step inside the castle, a troll appears.
+            He sees the broken body of his only friend and flies into a wild rage, devouring you.
+            In his blind anger, he also kills your sister.
+            The last anyone sees of him, he is standing on the top of the castle, laughing manically.''')
+        elif dragon == "befriend":
+            print('''You try to befriend the dragon, and to your surprise, he accepts your friendship!
+            He and his friend the troll decide to give up your sister, and the four of you ride off happily into the sunset.)
         
